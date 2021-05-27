@@ -1,0 +1,46 @@
+.homepage-section {
+  background-color: #fff;
+}
+
+.homepage-section #homepage-section-1-accordion {
+  box-shadow: 10px 10px 34px -40px rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 10px 10px 34px -40px rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 10px 10px 34px -40px rgba(0, 0, 0, 0.19);
+}
+
+.homepage-section #homepage-section-1-accordion .card {
+  background-color: #fff;
+  border: none;
+  padding: 0;
+}
+
+.homepage-section #homepage-section-1-accordion .card .card-header {
+  background-color: transparent;
+  padding: 0;
+  border: none;
+}
+
+.homepage-section #homepage-section-1-accordion .card .card-header button {
+  width: 100%;
+  border-radius: 0px;
+  color: black;
+  font-weight: bold;
+  text-align: left;
+}
+
+.homepage-section #homepage-section-1-accordion .card .card-header button:hover {
+  text-decoration: none;
+}
+
+.homepage-section #homepage-section-1-accordion .card .card-header button:focus, .homepage-section #homepage-section-1-accordion .card .card-header button:active, .homepage-section #homepage-section-1-accordion .card .card-header button:visited {
+  text-decoration: none;
+  border-left: 2px solid #654EDE;
+  background-color: #F5F4F8;
+}
+
+.homepage-section #homepage-section-1-accordion .card .card-body {
+  border-left: 2px solid #654EDE;
+  background-color: #F5F4F8;
+  color: gray;
+}
+/*# sourceMappingURL=homepage-section-faq.css.map */

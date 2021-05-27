@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAC,AAAA,IAAI,CAAC;EAAC,gBAAgB,EAAE,OAAO;CAAG",
+    "sources": [
+        "homepage-section-common.scss"
+    ],
+    "names": [],
+    "file": "homepage-section-common.css"
+}
