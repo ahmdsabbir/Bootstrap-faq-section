@@ -22,12 +22,17 @@
                     width: 100%;
                     border-radius: 0px;
                     color: black;
-                    font-weight: bold;
+                    font-weight: normal;
                     text-align: left;
+                    border-bottom: 1px solid rgb(207, 206, 206);
+                    &::before {
+                        content: '\279C ';
+                    }
 
                     &:hover {text-decoration:none;}
                     
                     &:focus,  &:active, &:visited  {
+                        border-bottom: none;
                         text-decoration: none;
                         border-left: 2px solid #654EDE;
                         background-color: #F5F4F8;
@@ -41,6 +46,7 @@
                 border-left: 2px solid #654EDE;
                 background-color: #F5F4F8;
                 color: gray;
+                font-weight: lighter;
             }
         }
         

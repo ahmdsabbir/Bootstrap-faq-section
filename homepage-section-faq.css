@@ -24,8 +24,13 @@
   width: 100%;
   border-radius: 0px;
   color: black;
-  font-weight: bold;
+  font-weight: normal;
   text-align: left;
+  border-bottom: 1px solid #cfcece;
+}
+
+.homepage-section #homepage-section-1-accordion .card .card-header button::before {
+  content: '\279C ';
 }
 
 .homepage-section #homepage-section-1-accordion .card .card-header button:hover {
@@ -33,6 +38,7 @@
 }
 
 .homepage-section #homepage-section-1-accordion .card .card-header button:focus, .homepage-section #homepage-section-1-accordion .card .card-header button:active, .homepage-section #homepage-section-1-accordion .card .card-header button:visited {
+  border-bottom: none;
   text-decoration: none;
   border-left: 2px solid #654EDE;
   background-color: #F5F4F8;
@@ -42,5 +48,6 @@
   border-left: 2px solid #654EDE;
   background-color: #F5F4F8;
   color: gray;
+  font-weight: lighter;
 }
 /*# sourceMappingURL=homepage-section-faq.css.map */
