@@ -2,25 +2,25 @@
   background-color: #fff;
 }
 
-.homepage-section #homepage-section-1-accordion {
+.homepage-section #homepage-section-faq {
   box-shadow: 10px 10px 34px -40px rgba(0, 0, 0, 0.19);
   -webkit-box-shadow: 10px 10px 34px -40px rgba(0, 0, 0, 0.19);
   -moz-box-shadow: 10px 10px 34px -40px rgba(0, 0, 0, 0.19);
 }
 
-.homepage-section #homepage-section-1-accordion .card {
+.homepage-section #homepage-section-faq .card {
   background-color: #fff;
   border: none;
   padding: 0;
 }
 
-.homepage-section #homepage-section-1-accordion .card .card-header {
+.homepage-section #homepage-section-faq .card .card-header {
   background-color: transparent;
   padding: 0;
   border: none;
 }
 
-.homepage-section #homepage-section-1-accordion .card .card-header button {
+.homepage-section #homepage-section-faq .card .card-header button {
   width: 100%;
   border-radius: 0px;
   color: black;
@@ -29,22 +29,22 @@
   border-bottom: 1px solid #cfcece;
 }
 
-.homepage-section #homepage-section-1-accordion .card .card-header button::before {
+.homepage-section #homepage-section-faq .card .card-header button::before {
   content: '\279C ';
 }
 
-.homepage-section #homepage-section-1-accordion .card .card-header button:hover {
+.homepage-section #homepage-section-faq .card .card-header button:hover {
   text-decoration: none;
 }
 
-.homepage-section #homepage-section-1-accordion .card .card-header button:focus, .homepage-section #homepage-section-1-accordion .card .card-header button:active, .homepage-section #homepage-section-1-accordion .card .card-header button:visited {
+.homepage-section #homepage-section-faq .card .card-header button:focus, .homepage-section #homepage-section-faq .card .card-header button:active, .homepage-section #homepage-section-faq .card .card-header button:visited {
   border-bottom: none;
   text-decoration: none;
   border-left: 2px solid #654EDE;
   background-color: #F5F4F8;
 }
 
-.homepage-section #homepage-section-1-accordion .card .card-body {
+.homepage-section #homepage-section-faq .card .card-body {
   border-left: 2px solid #654EDE;
   background-color: #F5F4F8;
   color: gray;
